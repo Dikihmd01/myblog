@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Blog Diki Hamdani"
+theme = "personal-blog"
+paginate = 3
+[permalinks]
+    blog = "/:year/:month/:title/"
+[taxonomies]
+  tag = "tags"
+[params]
+  Description = "Share Ilmu Bermanfaat"
+[markup]
+  [markup.goldmark.renderer]
+    unsafe=true

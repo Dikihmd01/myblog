@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-lg-8 mt-4">
+            <h1 class="mt-4">Postingan Terbaru</h1>
+            <ul class="list-blog">
+                {{ range .Paginator.Pages }}
+                <li>
+                    <a href="{{.Permalink}}"> {{.Title}}</a><br>
+                    <i style="font-size: 10px;"> Ditulis oleh {{.Params.author}} - </i>
+                    <span> {{.Date.Format "2006-01-02"}} </span><br>
+                    <p class="text-justify">{{.Summary}}</p>
+                </li><hr>
+                {{ end }}
+            </ul>
+
+            {{ template "_internal/pagination.html" . }}
+            
+            Tags <br>
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <span style="font-size: 15px;" class="badge badge-dark"><a style="color: white;" href="/tags/{{$name}}"> {{$name}} </a></span>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
