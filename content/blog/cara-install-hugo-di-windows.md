@@ -46,5 +46,3 @@ Cek apakah Huhgo sudah benar-benar terisntal? Caranya seperti gambar di baah. Bu
 ![Download Hugo Binary](/img/post/cek-versi.png)
 
 Bagaimana? Mudah bukan? Untuk tutorial kali ini sampai di sini saja dulu, bila ada yang belum dipahami bisa komen di bawah ya teman-teman semua. Semoga ilmunya bermanfaat untuk kita semua. Sampai jumpa di tutorial selanjutnya.
-
-<span>Photo by <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Olah</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
